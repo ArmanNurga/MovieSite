@@ -1,0 +1,30 @@
+iframe{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+  }
+
+.pagelogo {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+#FilmName{
+    position: absolute;
+    top: 350px;
+    left: 270px;
+
+}
+
+p{
+    position: relative;
+    top: -160px;
+    left: 220px;
+    width: 300px;
+    color: white;
+    
+  }

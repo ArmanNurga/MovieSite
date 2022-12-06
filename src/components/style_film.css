@@ -1,0 +1,125 @@
+body{
+  margin:0;
+  padding: 0;
+
+}
+
+
+#list1 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 400px;
+}
+#list2 {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 630px;
+}
+
+
+
+#list3 {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 860px;
+}
+img {
+    position: relative;
+    width: 138px;
+    height: 190px;
+    border-radius: 10%;
+    margin: 8px;
+}
+
+
+
+.hover-image-scale {
+  overflow: hiddden; /* Скрываем всё за контуром */
+ 
+}
+.hover-image-scale img {
+  transition: 1s; /* Время эффекта */
+  display: block; 
+}
+.hover-image-scale img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+::-webkit-scrollbar { width: 0;}
+
+.modalstyle{
+	margin: 0; 
+	padding: 0; 
+	position: fixed; 
+	top:0; 
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(3px); 
+	z-index:1; 
+	opacity: 0; 
+	pointer-events: none; 
+}
+
+
+.modalwindow {
+  margin: 0 auto;
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 1000px;
+  height:  500px;
+  
+  background: linear-gradient(to bottom,  #0B4C5F 0%,#04B4AE 52%,#0c0207 100%); ;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.modalwindow img{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 250px;
+}
+
+.modalwindow p{
+  position: relative;
+  top: 50px;
+  left: 280px;
+  width: 600px;
+  
+}
+
+.modalwindow p:last-child{
+  position: relative;
+  top: -5px;
+  left: 700px;
+  width: 100px;
+  color: red;
+  font-size: 60px;
+  
+}
+
+.modalwindow p:last-child:hover{
+  font-weight: 600;
+  position: relative;
+  top: -5px;
+  left: 695px;
+  
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: red;
+}
+
